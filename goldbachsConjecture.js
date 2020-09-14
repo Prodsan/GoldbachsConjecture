@@ -1,3 +1,4 @@
+//	Un matemático del equipo reporta que para comprobar si un número n es primo no hace falta comprobar sus divisores hasta n – 1, si no hasta √n.
 function getGoldbachsConjecture(n) {
 
   if (n < 2 || n % 2 !== 0) {
